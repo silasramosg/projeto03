@@ -25,7 +25,7 @@ body{
 }
 
 .navbar{
-    background-color: transparent;
+    background-color: #ebebeb;
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -132,7 +132,7 @@ header{
 /* conteudo */
 
 main{
-    background-color: #ebebeb;
+    background-color: rgb(247, 215, 155);
 }
 
 .gray-background{
@@ -213,3 +213,14 @@ main{
 .product-price span{
     font-weight: 600;
 }
+
+.exclusive-container{
+    color: #fff;
+    flex-direction: row-reverse;
+    padding: 5rem 1rem;
+}
+
+.exclusive-container img{
+    max-width: 500px;
+}
+
