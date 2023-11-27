@@ -12,23 +12,19 @@ img {
 }
 
 body {
-    font-family: 'arial';
-    background-image: radial-gradient(pink, rgb(247, 207, 214));
-
+    background-color: gray;
+    font-family: sans-serif;
+    /*background-image: radial-gradient(pink, rgb(247, 207, 214));*/
 }
+
+
+/*INICIO DA NAVBAR*/
 
 .login{
     text-decoration: none;
     color: black;
     font-size: 15px;
     font-family: sans-serif;
-}
-
-.header-inner-content {
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .navbar {
@@ -56,7 +52,7 @@ body {
 nav ul {
     display: flex;
     list-style: none;
-    text-align: center;
+    align-items: center;
     height: 10px;
     left: 25px;
 
@@ -82,10 +78,19 @@ nav ul li:hover {
     transition: all 0.2s;
     font-weight: bold;
 }
+/*FIM DA NAVBAR*/
+
 
 header {
     background-image: radial-gradient(pink, rgb(247, 207, 214));
 }
+
+.header-inner-content {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .header-bottom-side {
     display: flex;
@@ -139,7 +144,7 @@ header {
 /* conteudo */
 
 main {
-    background-color: rgb(247, 215, 155);
+    background-color: gray;
 }
 
 .gray-background {
@@ -230,3 +235,112 @@ main {
 .exclusive-container img {
     max-width: 500px;
 }
+
+/*INICIO DO RODAPE*/
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.rodape p{
+    color: white;
+}
+
+.rodape h3{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.rodape-col-1, .rodape-col-2, .rodape-col-3, .rodape-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.rodape-col-1{
+    flex-basis: 30%;
+}
+
+.rodape-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.rodape-col-img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.rodape-col-3, .rodape-col-4{
+    flex-basis: 12%;
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+}
+
+.rodape hr{
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.direitos{
+    text-align: center;
+}
+/*FIM DO RODAPE*/
+
+/*PRODUTOS*/
+.linha2{
+    margin: 100px auto 50px;
+}
+
+.linha2 select{
+    padding: 5px;
+    border: 1px solid palevioletred;
+    cursor: pointer;
+}
+
+.linha2 select:focus{
+    outline: none;
+}
+
+.paginas{
+    margin: 20px 260px 80px;
+}
+
+.paginas span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+/*PRODUTOS*/
