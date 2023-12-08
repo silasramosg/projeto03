@@ -1,7 +1,7 @@
+/* VARIAVEIS*/
 let btn = document.querySelector('#verSenha')
 let btnConfirm = document.querySelector('#verConfirmSenha')
 
-//validações --  --  --
 let nome = document.querySelector('#nome')
 let labelNome = document.querySelector('#labelNome')
 let validNome = false
@@ -20,8 +20,10 @@ let validConfirmSenha = false
 
 let msgError = document.querySelector('#msgError')
 let msgSuccess = document.querySelector('#msgSuccess')
+/* /VARIAVEIS*/
 
 
+/* VALIDAÇÕES*/
 nome.addEventListener('keyup', () => {
   if(nome.value.length <= 2){
     labelNome.setAttribute('style', 'color: red')
